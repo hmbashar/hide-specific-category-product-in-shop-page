@@ -19,3 +19,6 @@ function custom_pre_get_posts_query( $q ) {
 }
 add_action( 'woocommerce_product_query', 'custom_pre_get_posts_query' );
 ```
+
+
+ref: https://docs.woocommerce.com/document/exclude-a-category-from-the-shop-page/
